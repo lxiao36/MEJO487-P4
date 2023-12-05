@@ -1,7 +1,52 @@
-/* Decent Defaults */
+.info-window {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+.info-window h3 {
+  color: #333;
+  margin-bottom: 5px;
+}
+.info-window .player-stats {
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.info-window .player-stats strong {
+  color: #007bff;
+}
+.top-cities-list {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+}
 
-img,
-video {
-  width: 100%;
-  height: auto;
+.top-cities-list h2 {
+  margin-bottom: 10px;
+}
+
+.top-cities-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.top-cities-list li {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.info-window-content a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.info-window-content a:hover {
+  text-decoration: underline;
+}
+
+.scoll {
+  max-height: 100px;
+  overflow-y: auto;
 }
