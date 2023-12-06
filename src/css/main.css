@@ -1,10 +1,22 @@
+@import url("https://use.typekit.net/exx4ajp.css");
+
+body {
+  background-image: linear-gradient(to bottom right, #88b4f6, #88b4f6);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .info-window {
   font-family: Arial, sans-serif;
   line-height: 1.5;
+  text-align: center;
 }
 .info-window h3 {
   color: #333;
   margin-bottom: 5px;
+}
+.info-window img {
+  display: block;
+  margin: auto;
 }
 .info-window .player-stats {
   background-color: #f8f8f8;
@@ -17,7 +29,7 @@
 .top-cities-list {
   margin-top: 20px;
   padding: 15px;
-  background-color: #f8f8f8;
+  background-color: #13294b;
   border-radius: 5px;
 }
 
@@ -38,7 +50,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .info-window-content a {
-  color: #007bff;
+  color: #13294b;
   text-decoration: none;
 }
 
@@ -49,4 +61,79 @@
 .scoll {
   max-height: 100px;
   overflow-y: auto;
+}
+
+.title {
+  font-size: 5rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  text-align: center;
+  color: #f5eedc;
+  font-family: "franklin-gothic-compressed", sans-serif;
+  font-weight: 600;
+}
+
+.city-title {
+  font-size: 30px;
+  padding: 1rem;
+  text-align: center;
+  color: #f5eedc;
+  font-family: "franklin-gothic-compressed", sans-serif;
+  font-weight: 600;
+}
+
+.script {
+  font-size: 30px;
+  margin-bottom: 8rem;
+  padding-right: 8rem;
+  line-height: 3rem;
+  color: #f5eedc;
+  font-family: "franklin-gothic-compressed", sans-serif;
+  font-weight: 400;
+}
+
+.window-rank {
+  font-size: 2rem;
+}
+
+.rm-button {
+  text-align: center; /* Center the button */
+  margin: 10px 0; /* Spacing around the button */
+}
+
+.rm-button a {
+  display: inline-block; /* Allows padding and width/height */
+  padding: 10px 20px; /* Size of the button */
+  background-color: #88b4f6; /* Background color */
+  color: #f5eedc; /* Text color */
+  text-decoration: none; /* Remove underline from link */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth background color change on hover */
+}
+
+.rm-button a:hover {
+  background-color: #13294b; /* Darker shade on hover */
+}
+
+#map {
+  margin-bottom: 4rem;
+}
+
+.article-space {
+  margin-bottom: 4px;
+}
+
+#backToMapButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+#backToMapButton img {
+  width: 50px; /* Adjust as needed */
+  height: auto;
 }

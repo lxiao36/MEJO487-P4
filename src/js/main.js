@@ -160,36 +160,51 @@ function generateTopCitiesList(topCities, cityData, rankings) {
     const listItem = document.createElement("li");
     listItem.id = cityKey.replace(/[^a-zA-Z0-9]/g, "_"); // Replace spaces and special characters
 
-    let playerDetails = "";
+    let playerDetails = '<div class="col-lg-6">';
     if (cityInfo.players.length > 0) {
-      cityInfo.players.forEach((player) => {
-        playerDetails += `<div class="player-stats"><p><strong>${player.Player}</strong><br>`;
-        playerDetails += `Yrs: ${player.Yrs}, G: ${player.G}, MP: ${player.MP}, FG: ${player.FG}, 3P: ${player["3P"]}, FT: ${player.FT}<br>`;
-        playerDetails += `PTS: ${player.PTS}, TRB: ${player.TRB}, AST: ${player.AST}, STL: ${player.STL}, BLK: ${player.BLK}</p></div>`;
+      // Start the table and add table headers
+      playerDetails +=
+        '<div class="table-responsive" style="max-height:550px;overflow-y:auto;"><table class="table">';
+      playerDetails += "<thead><tr><th>Player</th>";
+      SumKeys.concat(AvgKeys).forEach((key) => {
+        playerDetails += `<th>${key}</th>`;
       });
+      playerDetails += "</tr></thead><tbody>";
+
+      // Add table rows for each player
+      cityInfo.players.forEach((player) => {
+        playerDetails += `<tr><td><strong>${player.Player}</strong></td>`;
+        SumKeys.concat(AvgKeys).forEach((key) => {
+          playerDetails += `<td>${player[key]}</td>`;
+        });
+        playerDetails += "</tr>";
+      });
+
+      playerDetails += "</tbody></table></div>";
     } else {
-      playerDetails = "<p>No player data available for this city.</p>";
+      playerDetails += "<p>No player data available for this city.</p>";
     }
 
-    let rankingDetails = "";
-    SumKeys.forEach((key) => {
-      rankingDetails += `<p>${key} Total: ${cityInfo.aggregatedStats[key]} (Rank: ${rankings[key][cityKey]})</p>`;
-    });
+    playerDetails += "</div>"; // Close playerDetails column
 
+    let rankingDetails = '<div class="col-lg-6">';
+    SumKeys.forEach((key) => {
+      rankingDetails += `<p class="article-space"><strong>${key} Total:</strong> ${cityInfo.aggregatedStats[key]} (Rank: ${rankings[key][cityKey]})</p>`;
+    });
     AvgKeys.forEach((key) => {
-      rankingDetails += `<p>${key} Average: ${cityInfo.aggregatedStats[
+      rankingDetails += `<p class="article-space"><strong>${key} Average:</strong> ${cityInfo.aggregatedStats[
         key
       ].toFixed(2)} (Rank: ${rankings[key][cityKey]})</p>`;
     });
+    rankingDetails += "</div>"; // Close rankingDetails column
 
     listItem.innerHTML = `
           <h3>${cityKey}</h3>
           <p>Total Players: ${cityInfo.players.length}</p>
-          <p>Additional Info...</p>
-          <div style="max-height:100px;overflow-y:auto;">
+          <div class="row">
               ${playerDetails}
+              ${rankingDetails}
           </div>
-          ${rankingDetails}
       `;
 
     listContainer.appendChild(listItem);
@@ -244,30 +259,31 @@ function getGeocodeAndAddMarker(city, region, cityData) {
               let infoWindowContent = `
                 <div class="info-window">
                 <h3>${city}</h3> 
-                <img src="${photoUrl}" 
-                alt="Image of ${city}" 
-                style="width:500px;height:auto;">
-                <p>${cityData.players.length} Players</p>
-                <p><a href="#${safeCityId}" onclick="scrollToCitySection('${safeCityId}')">Read more</a></p>`;
+                <p class="window-rank">Has ${cityData.players.length} Players</p>
+                `;
 
               // Add SumKeys data with ranking check
               SumKeys.forEach((key) => {
-                if (cityData.rankings[key] <= 10) {
-                  infoWindowContent += `<p>${key} Total: ${cityData.aggregatedStats[key]} (Rank: ${cityData.rankings[key]})</p>`;
+                if (cityData.rankings[key] <= 5) {
+                  infoWindowContent += `<p class="window-rank">Is top ${cityData.rankings[key]} in Total ${key}</p>`;
                 } else {
                   infoWindowContent += ``;
                 }
               });
               // Add AvgKeys data with ranking check
               AvgKeys.forEach((key) => {
-                if (cityData.rankings[key] <= 10) {
-                  infoWindowContent += `<p>${key} Average: ${cityData.aggregatedStats[
-                    key
-                  ].toFixed(2)} (Rank: ${cityData.rankings[key]})</p>`;
+                if (cityData.rankings[key] <= 5) {
+                  infoWindowContent += `<p class="window-rank">Is top ${cityData.rankings[key]} in Average ${key}</p>`;
                 } else {
                   infoWindowContent += ``;
                 }
               });
+
+              infoWindowContent += `
+                <p class="rm-button"><a href="#${safeCityId}" onclick="scrollToCitySection('${safeCityId}')">Read more</a></p>
+                <img src="${photoUrl}" 
+                alt="Image of ${city}" 
+                style="width:500px;height:auto;">`;
 
               /*
               if (rank > 0) {
@@ -277,6 +293,7 @@ function getGeocodeAndAddMarker(city, region, cityData) {
                 }')">View more details</a></p>`;
               }
 */
+              /*
               if (cityData.players.length > 0) {
                 infoWindowContent +=
                   '<div style="max-height:100px;overflow-y:auto;">'; // Add a scrollable container
@@ -291,7 +308,7 @@ function getGeocodeAndAddMarker(city, region, cityData) {
                 infoWindowContent +=
                   "<p>No player data available for this city.</p>";
               }
-
+*/
               let infoWindow = new google.maps.InfoWindow({
                 content: infoWindowContent,
               });
@@ -330,5 +347,24 @@ function scrollToList(cityKey) {
     }
   });
 }
+
+function scrollToMap() {
+  document.getElementById("map").scrollIntoView({ behavior: "smooth" });
+}
+
+window.onscroll = function () {
+  var buttonImage = document.getElementById("backToMapImage");
+  var mapTop = document.getElementById("map").offsetTop;
+  var scrollPosition =
+    document.documentElement.scrollTop || document.body.scrollTop;
+
+  if (scrollPosition < mapTop) {
+    buttonImage.src = "images/unc-head.png"; // Default image
+  } else if (scrollPosition < mapTop + 500) {
+    buttonImage.src = "images/unc-mj.png"; // Image when moving away from the map
+  } else {
+    buttonImage.src = "images/unc-head.png"; // Image when far away from the map
+  }
+};
 
 initMap();

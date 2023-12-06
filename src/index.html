@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -50,11 +56,36 @@
     <title>MEJO487-P4</title>
   </head>
   <body>
-    <h1>Players on Map with Regional Data</h1>
-    <div id="map" style="height: 500px; width: 100%"></div>
-    <div id="topCitiesList" class="top-cities-list">
-      <h2>Top 6 Cities with Most Players</h2>
-      <ul id="cityList"></ul>
+    <div class="row">
+      <div class="col-lg-2"></div>
+      <div class="col-lg-8">
+        <h1 class="title">North Carolina Hoops Spotlight</h1>
+        <h2 class="script">
+          North Carolina Hoops Spotlight is an interactive web tool showcasing
+          the basketball heritage of cities across the Tar Heel State. It
+          features a map-based interface displaying player statistics and city
+          rankings, offering users a unique insight into North Carolina's
+          contribution to basketball.
+        </h2>
+      </div>
+      <div class="col-lg-2"></div>
     </div>
+
+    <div id="map" style="height: 650px; width: 100%"></div>
+
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div id="topCitiesList" class="top-cities-list">
+          <h2 class="city-title">Top 6 Cities with Most Players</h2>
+          <ul id="cityList"></ul>
+        </div>
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+
+    <button id="backToMapButton" onclick="scrollToMap()">
+      <img src="./images/unc-head.png" alt="Back to Map" id="backToMapImage" />
+    </button>
   </body>
 </html>
