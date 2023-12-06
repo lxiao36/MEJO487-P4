@@ -3,12 +3,12 @@ let geocoder;
 let playerDataByCity = {};
 let topCities = [];
 const icons = {
-  1: "images/unc-head.png",
-  2: "images/unc-head.png",
-  3: "images/unc-head.png",
-  4: "images/unc-head.png",
-  5: "images/unc-head.png",
-  6: "images/unc-head.png",
+  1: "images/golden-luxury-numbers-1.png",
+  2: "images/golden-luxury-numbers-2.png",
+  3: "images/golden-luxury-numbers-3.png",
+  4: "images/golden-luxury-numbers-4.png",
+  5: "images/golden-luxury-numbers-5.png",
+  6: "images/golden-luxury-numbers-6.png",
 };
 
 const SumKeys = [
@@ -198,8 +198,11 @@ function generateTopCitiesList(topCities, cityData, rankings) {
     });
     rankingDetails += "</div>"; // Close rankingDetails column
 
+    // Extract just the city name from cityKey
+    const cityName = cityKey.split(",")[0]; // Get the part before the comma
+
     listItem.innerHTML = `
-          <h3>${cityKey}</h3>
+          <h3>${cityName}</h3>
           <p>Total Players: ${cityInfo.players.length}</p>
           <div class="row">
               ${playerDetails}
@@ -219,15 +222,24 @@ function getGeocodeAndAddMarker(city, region, cityData) {
         // Get the location from geocode results
         let location = geocodeResults[0].geometry.location;
 
-        // Determine if this city is one of the top cities
         let rank = topCities.indexOf(city + ", " + region) + 1; // '+ 1' because indices start at 0 but ranks start at 1
-        let icon =
-          rank > 0
-            ? {
-                url: icons[rank],
-                scaledSize: new google.maps.Size(40, 40), // Scale the icon to 40x40 pixels
-              }
-            : null;
+
+        // Ensure the default icon URL is correct and accessible
+        const defaultIconUrl = "images/basketball-icon.png"; // The default pin image path
+        const defaultIconSize = new google.maps.Size(30, 30); // Default size for non-top cities
+        const topCityIconSize = new google.maps.Size(60, 70); // Custom size for top cities
+
+        let iconUrl = rank > 0 && icons[rank] ? icons[rank] : defaultIconUrl;
+        let iconSize =
+          rank > 0 && icons[rank] ? topCityIconSize : defaultIconSize;
+
+        let icon = {
+          url: iconUrl,
+          scaledSize: iconSize,
+        };
+
+        // Debugging: Log the icon URL to the console to check what's being set
+        console.log("Icon URL for " + city + ": " + icon.url);
 
         let marker = new google.maps.Marker({
           map: map,
@@ -285,30 +297,6 @@ function getGeocodeAndAddMarker(city, region, cityData) {
                 alt="Image of ${city}" 
                 style="width:500px;height:auto;">`;
 
-              /*
-              if (rank > 0) {
-                // Add a link to navigate to the list section
-                infoWindowContent += `<p><a href="#topCitiesList" onclick="scrollToList('${
-                  city + ", " + region
-                }')">View more details</a></p>`;
-              }
-*/
-              /*
-              if (cityData.players.length > 0) {
-                infoWindowContent +=
-                  '<div style="max-height:100px;overflow-y:auto;">'; // Add a scrollable container
-                cityData.players.forEach((player) => {
-                  infoWindowContent += `<div class="player-stats"><p><strong>${player.Player}</strong><br>`;
-                  infoWindowContent += `Yrs: ${player.Yrs}, G: ${player.G}, MP: ${player.MP}, FG: ${player.FG}, 3P: ${player["3P"]}, FT: ${player.FT}<br>`;
-                  infoWindowContent += `PTS: ${player.PTS}, TRB: ${player.TRB}, AST: ${player.AST}, STL: ${player.STL}, BLK: ${player.BLK}</p>`;
-                  infoWindowContent += `PTS Per Game: ${player["PTS Per Game"]}, TRB: ${player.TRB}, AST: ${player.AST}, STL: ${player.STL}, BLK: ${player.BLK}</p>`;
-                });
-                infoWindowContent += "</div>";
-              } else {
-                infoWindowContent +=
-                  "<p>No player data available for this city.</p>";
-              }
-*/
               let infoWindow = new google.maps.InfoWindow({
                 content: infoWindowContent,
               });
@@ -359,11 +347,11 @@ window.onscroll = function () {
     document.documentElement.scrollTop || document.body.scrollTop;
 
   if (scrollPosition < mapTop) {
-    buttonImage.src = "images/unc-head.png"; // Default image
+    buttonImage.src = "images/mj-dio.png"; // Default image
   } else if (scrollPosition < mapTop + 500) {
-    buttonImage.src = "images/unc-mj.png"; // Image when moving away from the map
+    buttonImage.src = "images/mj-dio-2.png"; // Image when moving away from the map
   } else {
-    buttonImage.src = "images/unc-head.png"; // Image when far away from the map
+    buttonImage.src = "images/mj-dio-3.png"; // Image when far away from the map
   }
 };
 

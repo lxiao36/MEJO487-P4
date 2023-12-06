@@ -133,7 +133,19 @@ body {
   z-index: 1000;
 }
 
+.hover_img {
+  display: none;
+}
+
 #backToMapButton img {
-  width: 50px; /* Adjust as needed */
+  width: 350px; /* Adjust as needed */
   height: auto;
+}
+
+#backToMapButton:hover .hover_img {
+  display: inline-block;
+}
+
+#backToMapButton:hover .init_img {
+  display: none;
 }
