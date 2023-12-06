@@ -2,6 +2,7 @@ let map;
 let geocoder;
 let playerDataByCity = {};
 let topCities = [];
+// Icons for top 6 cities with most players
 const icons = {
   1: "images/golden-luxury-numbers-1.png",
   2: "images/golden-luxury-numbers-2.png",
@@ -10,7 +11,7 @@ const icons = {
   5: "images/golden-luxury-numbers-5.png",
   6: "images/golden-luxury-numbers-6.png",
 };
-
+// Organize Keys to be calcuated as sums or averages
 const SumKeys = [
   "Yrs",
   "G",
@@ -36,18 +37,20 @@ const AvgKeys = [
   "AST Per Game",
 ];
 
+// Initializes the Google Maps instance. It sets up the map with a specific center and zoom level and initializes the geocoder.
 async function initMap() {
   const { Map } = await google.maps.importLibrary("maps");
   map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 35.7596, lng: -79.0193 }, // Centered on North Carolina
-    zoom: 7,
+    center: { lat: 35.7596, lng: -79.08 }, // Centered on North Carolina
+    zoom: 7.5,
   });
 
   geocoder = new google.maps.Geocoder();
 
-  processJsonData("data/nba-ncdemo.json"); // Replace with the path to your JSON file
+  processJsonData("data/nba-ncdemo.json");
 }
 
+// Creates and returns an object with all keys from SumKeys and AvgKeys set to zero. This function is used to initialize statistics for each city.
 function initializeAggregatedStats() {
   let stats = {};
   SumKeys.forEach((key) => (stats[key] = 0));
@@ -55,19 +58,22 @@ function initializeAggregatedStats() {
   return stats;
 }
 
+// Updates the aggregated statistics for a city. It adds the current player's statistics to the city's total in SumKeys and AvgKeys.
 function updateAggregatedStats(stats, player) {
   SumKeys.forEach((key) => (stats[key] += player[key]));
   AvgKeys.forEach((key) => (stats[key] += player[key])); // Adjust this as needed for averages
 }
 
+// Sorts the cities based on the number of players and returns an array of the top cities' keys.
 function getTopCities(cityData) {
   // Create an array from the cityData object and sort it by the number of players
   let sortedCities = Object.entries(cityData).sort(
     (a, b) => b[1].players.length - a[1].players.length
   );
-  return sortedCities.slice(0, 100).map((entry) => entry[0]); // Return the top 6 cities
+  return sortedCities.slice(0, 100).map((entry) => entry[0]); // Is 100 place holder, adjust based on how many cities you want to show
 }
 
+// Calculates the average statistics for each city. It divides the total stats in AvgKeys by the number of players for each city.
 function calculateAverages(cityData) {
   for (let cityKey in cityData) {
     if (cityData.hasOwnProperty(cityKey)) {
@@ -81,6 +87,7 @@ function calculateAverages(cityData) {
   }
 }
 
+// Ranks cities based on a specific statistic. It sorts the cities by a given stat and assigns a rank based on their position in the sorted array.
 function rankCitiesByStat(cityData, key, isAvg = false) {
   // Create an array from the cityData and sort it based on the key
   let sortedCities = Object.entries(cityData).sort((a, b) => {
@@ -98,6 +105,7 @@ function rankCitiesByStat(cityData, key, isAvg = false) {
   return rankings;
 }
 
+// Fetches and processes the JSON data. It loops through the player data, updates city statistics, calculates averages, determines rankings, and then triggers the map marker creation and list generation.
 function processJsonData(jsonUrl) {
   $.getJSON(jsonUrl, function (players) {
     let cityData = {};
@@ -151,6 +159,7 @@ function processJsonData(jsonUrl) {
   });
 }
 
+// Generates the list of top cities to be displayed on the webpage. It creates list items with detailed information about each city, including player details and rankings.
 function generateTopCitiesList(topCities, cityData, rankings) {
   const listContainer = document.getElementById("cityList");
   listContainer.innerHTML = ""; // Clear existing content
@@ -214,6 +223,7 @@ function generateTopCitiesList(topCities, cityData, rankings) {
   });
 }
 
+// Geocodes each city's address to get its latitude and longitude, then places a marker on the map. It sets up an info window for each marker with specific city information.
 function getGeocodeAndAddMarker(city, region, cityData) {
   geocoder.geocode(
     { address: city + ", " + region },
@@ -224,7 +234,6 @@ function getGeocodeAndAddMarker(city, region, cityData) {
 
         let rank = topCities.indexOf(city + ", " + region) + 1; // '+ 1' because indices start at 0 but ranks start at 1
 
-        // Ensure the default icon URL is correct and accessible
         const defaultIconUrl = "images/basketball-icon.png"; // The default pin image path
         const defaultIconSize = new google.maps.Size(30, 30); // Default size for non-top cities
         const topCityIconSize = new google.maps.Size(60, 70); // Custom size for top cities
@@ -256,8 +265,8 @@ function getGeocodeAndAddMarker(city, region, cityData) {
         placesService.nearbySearch(
           {
             location: location,
-            radius: 1000, // Search within 5 km radius from city center
-            type: ["stadium", "university"], // Modify types as needed
+            radius: 1000, // Search within 1 km radius from city center
+            type: ["stadium", "university"],
           },
           function (placesResults, placesStatus) {
             if (
@@ -271,7 +280,7 @@ function getGeocodeAndAddMarker(city, region, cityData) {
               let infoWindowContent = `
                 <div class="info-window">
                 <h3>${city}</h3> 
-                <p class="window-rank">Has ${cityData.players.length} Players</p>
+                <p>Has ${cityData.players.length} Players</p>
                 `;
 
               // Add SumKeys data with ranking check
@@ -319,6 +328,7 @@ function getGeocodeAndAddMarker(city, region, cityData) {
   );
 }
 
+// Smoothly scrolls the webpage to the list section when a city in the map is clicked.
 function scrollToList(cityKey) {
   // Smooth scroll to the list section
   document
@@ -336,10 +346,12 @@ function scrollToList(cityKey) {
   });
 }
 
+// Smoothly scrolls the webpage back to the map section.
 function scrollToMap() {
   document.getElementById("map").scrollIntoView({ behavior: "smooth" });
 }
 
+// Changes the image source of the "Back to Map" button based on the user's scroll position relative to the map's position on the page.
 window.onscroll = function () {
   var buttonImage = document.getElementById("backToMapImage");
   var mapTop = document.getElementById("map").offsetTop;

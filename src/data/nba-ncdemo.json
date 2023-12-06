@@ -23,7 +23,7 @@
     "MP Per Game": 18.2,
     "PTS Per Game": 7.7,
     "TRB Per Game": 4.1,
-    "Per Game": 1.5,
+    "AST Per Game": 1.5,
     "City": "Kings Mountain",
     "Region": "North Carolina"
   },
@@ -51,7 +51,7 @@
     "MP Per Game": 3.1,
     "PTS Per Game": 0.6,
     "TRB Per Game": 0.7,
-    "Per Game": 0.4,
+    "AST Per Game": 0.4,
     "City": "Charlotte",
     "Region": "North Carolina"
   },
@@ -79,7 +79,7 @@
     "MP Per Game": 13.6,
     "PTS Per Game": 5.5,
     "TRB Per Game": 1.5,
-    "Per Game": 2.3,
+    "AST Per Game": 2.3,
     "City": "Wilmington",
     "Region": "North Carolina"
   },
@@ -107,7 +107,7 @@
     "MP Per Game": 23.7,
     "PTS Per Game": 9.2,
     "TRB Per Game": 2.7,
-    "Per Game": 4,
+    "AST Per Game": 4,
     "City": "Gastonia",
     "Region": "North Carolina"
   },
@@ -135,7 +135,7 @@
     "MP Per Game": 19.1,
     "PTS Per Game": 5.6,
     "TRB Per Game": 4.5,
-    "Per Game": 0.8,
+    "AST Per Game": 0.8,
     "City": "Rocky Mount",
     "Region": "North Carolina"
   },
@@ -163,7 +163,7 @@
     "MP Per Game": 9.2,
     "PTS Per Game": 2.6,
     "TRB Per Game": 1.7,
-    "Per Game": 1.1,
+    "AST Per Game": 1.1,
     "City": "Gibson",
     "Region": "North Carolina"
   },
@@ -191,7 +191,7 @@
     "MP Per Game": 2.5,
     "PTS Per Game": 1,
     "TRB Per Game": 0.8,
-    "Per Game": 0.3,
+    "AST Per Game": 0.3,
     "City": "Winston-Salem",
     "Region": "North Carolina"
   },
@@ -219,7 +219,7 @@
     "MP Per Game": 20.6,
     "PTS Per Game": 8.2,
     "TRB Per Game": 3.2,
-    "Per Game": 1.8,
+    "AST Per Game": 1.8,
     "City": "Kelford",
     "Region": "North Carolina"
   },
@@ -247,7 +247,7 @@
     "MP Per Game": 37.3,
     "PTS Per Game": 20.1,
     "TRB Per Game": 13.7,
-    "Per Game": 2.4,
+    "AST Per Game": 2.4,
     "City": "New Bern",
     "Region": "North Carolina"
   },
@@ -275,7 +275,7 @@
     "MP Per Game": 19.2,
     "PTS Per Game": 5.9,
     "TRB Per Game": 3.2,
-    "Per Game": 1.8,
+    "AST Per Game": 1.8,
     "City": "Charlotte",
     "Region": "North Carolina"
   },
@@ -303,7 +303,7 @@
     "MP Per Game": 30.3,
     "PTS Per Game": 14.3,
     "TRB Per Game": 5,
-    "Per Game": 2.2,
+    "AST Per Game": 2.2,
     "City": "Charlotte",
     "Region": "North Carolina"
   },
@@ -331,7 +331,7 @@
     "MP Per Game": 22.9,
     "PTS Per Game": 8.6,
     "TRB Per Game": 2.3,
-    "Per Game": 3.3,
+    "AST Per Game": 3.3,
     "City": "Franklinton",
     "Region": "North Carolina"
   },
@@ -359,7 +359,7 @@
     "MP Per Game": 22.6,
     "PTS Per Game": 7.4,
     "TRB Per Game": 2.7,
-    "Per Game": 2.9,
+    "AST Per Game": 2.9,
     "City": "Havelock",
     "Region": "North Carolina"
   },
@@ -387,7 +387,7 @@
     "MP Per Game": 23,
     "PTS Per Game": 13.1,
     "TRB Per Game": 6.6,
-    "Per Game": 0.8,
+    "AST Per Game": 0.8,
     "City": "Burlington",
     "Region": "North Carolina"
   },
@@ -415,7 +415,7 @@
     "MP Per Game": 2.3,
     "PTS Per Game": 1.3,
     "TRB Per Game": 0.6,
-    "Per Game": 0.3,
+    "AST Per Game": 0.3,
     "City": "Wilson's Mills",
     "Region": "North Carolina"
   },
@@ -443,7 +443,7 @@
     "MP Per Game": 13.4,
     "PTS Per Game": 4.3,
     "TRB Per Game": 2.9,
-    "Per Game": 0.7,
+    "AST Per Game": 0.7,
     "City": "New Bern",
     "Region": "North Carolina"
   },
@@ -471,7 +471,7 @@
     "MP Per Game": 21.1,
     "PTS Per Game": 9.4,
     "TRB Per Game": 6.3,
-    "Per Game": 1.3,
+    "AST Per Game": 1.3,
     "City": "Crossnore",
     "Region": "North Carolina"
   },
@@ -499,7 +499,7 @@
     "MP Per Game": 8.1,
     "PTS Per Game": 3.1,
     "TRB Per Game": 1.8,
-    "Per Game": 0.2,
+    "AST Per Game": 0.2,
     "City": "Charlotte",
     "Region": "North Carolina"
   },
@@ -527,7 +527,7 @@
     "MP Per Game": 22.5,
     "PTS Per Game": 7.1,
     "TRB Per Game": 7.7,
-    "Per Game": 2,
+    "AST Per Game": 2,
     "City": "Durham",
     "Region": "North Carolina"
   },
@@ -555,7 +555,7 @@
     "MP Per Game": 24.2,
     "PTS Per Game": 10,
     "TRB Per Game": 4.5,
-    "Per Game": 2,
+    "AST Per Game": 2,
     "City": "Wallace",
     "Region": "North Carolina"
   },
@@ -583,7 +583,7 @@
     "MP Per Game": 13.2,
     "PTS Per Game": 3.1,
     "TRB Per Game": 2.5,
-    "Per Game": 0.5,
+    "AST Per Game": 0.5,
     "City": "Smithfield",
     "Region": "North Carolina"
   },
@@ -611,7 +611,7 @@
     "MP Per Game": 26.1,
     "PTS Per Game": 8.3,
     "TRB Per Game": 3,
-    "Per Game": 3.9,
+    "AST Per Game": 3.9,
     "City": "Lincolnton",
     "Region": "North Carolina"
   },
@@ -639,7 +639,7 @@
     "MP Per Game": 8.8,
     "PTS Per Game": 4.9,
     "TRB Per Game": 0.9,
-    "Per Game": 0.8,
+    "AST Per Game": 0.8,
     "City": "Raleigh",
     "Region": "North Carolina"
   },
@@ -667,7 +667,7 @@
     "MP Per Game": 6.2,
     "PTS Per Game": 1.3,
     "TRB Per Game": 1.5,
-    "Per Game": 0.1,
+    "AST Per Game": 0.1,
     "City": "Aurora",
     "Region": "North Carolina"
   },
@@ -695,7 +695,7 @@
     "MP Per Game": 6,
     "PTS Per Game": 1.2,
     "TRB Per Game": 1.7,
-    "Per Game": 0.3,
+    "AST Per Game": 0.3,
     "City": "Burlington",
     "Region": "North Carolina"
   },
@@ -723,7 +723,7 @@
     "MP Per Game": 0,
     "PTS Per Game": 0,
     "TRB Per Game": 0,
-    "Per Game": 0,
+    "AST Per Game": 0,
     "City": "Pleasant Grove",
     "Region": "North Carolina"
   },
@@ -751,7 +751,7 @@
     "MP Per Game": 25.2,
     "PTS Per Game": 11.3,
     "TRB Per Game": 2.2,
-    "Per Game": 2.2,
+    "AST Per Game": 2.2,
     "City": "Charlotte",
     "Region": "North Carolina"
   },
@@ -779,7 +779,7 @@
     "MP Per Game": 36.5,
     "PTS Per Game": 19,
     "TRB Per Game": 9.5,
-    "Per Game": 3.7,
+    "AST Per Game": 3.7,
     "City": "Black Mountain",
     "Region": "North Carolina"
   },
@@ -807,7 +807,7 @@
     "MP Per Game": 22.1,
     "PTS Per Game": 8.2,
     "TRB Per Game": 1.5,
-    "Per Game": 1.7,
+    "AST Per Game": 1.7,
     "City": "Winston-Salem",
     "Region": "North Carolina"
   },
@@ -835,7 +835,7 @@
     "MP Per Game": 17.2,
     "PTS Per Game": 7.8,
     "TRB Per Game": 4.8,
-    "Per Game": 1,
+    "AST Per Game": 1,
     "City": "Raleigh",
     "Region": "North Carolina"
   },
@@ -863,7 +863,7 @@
     "MP Per Game": 27.9,
     "PTS Per Game": 18.9,
     "TRB Per Game": 3,
-    "Per Game": 3.8,
+    "AST Per Game": 3.8,
     "City": "Pineville",
     "Region": "North Carolina"
   },
@@ -891,7 +891,7 @@
     "MP Per Game": 5,
     "PTS Per Game": 2.8,
     "TRB Per Game": 0.8,
-    "Per Game": 0.2,
+    "AST Per Game": 0.2,
     "City": "Kinston",
     "Region": "North Carolina"
   },
@@ -919,7 +919,7 @@
     "MP Per Game": 13.1,
     "PTS Per Game": 2.8,
     "TRB Per Game": 3,
-    "Per Game": 1,
+    "AST Per Game": 1,
     "City": "King",
     "Region": "North Carolina"
   },
@@ -947,7 +947,7 @@
     "MP Per Game": 24.7,
     "PTS Per Game": 11.5,
     "TRB Per Game": 8.6,
-    "Per Game": 1.3,
+    "AST Per Game": 1.3,
     "City": "Raleigh",
     "Region": "North Carolina"
   },
@@ -975,7 +975,7 @@
     "MP Per Game": 11.4,
     "PTS Per Game": 3.4,
     "TRB Per Game": 1.2,
-    "Per Game": 2.1,
+    "AST Per Game": 2.1,
     "City": "Charlotte",
     "Region": "North Carolina"
   },
@@ -1003,7 +1003,7 @@
     "MP Per Game": 10.5,
     "PTS Per Game": 2.8,
     "TRB Per Game": 1.1,
-    "Per Game": 0.9,
+    "AST Per Game": 0.9,
     "City": "Jacksonville",
     "Region": "North Carolina"
   },
@@ -1031,7 +1031,7 @@
     "MP Per Game": 16.7,
     "PTS Per Game": 7.7,
     "TRB Per Game": 1.4,
-    "Per Game": 2.6,
+    "AST Per Game": 2.6,
     "City": "Goldsboro",
     "Region": "North Carolina"
   },
@@ -1059,7 +1059,7 @@
     "MP Per Game": 27.6,
     "PTS Per Game": 12.8,
     "TRB Per Game": 2.6,
-    "Per Game": 5.4,
+    "AST Per Game": 5.4,
     "City": "Gastonia",
     "Region": "North Carolina"
   },
@@ -1087,7 +1087,7 @@
     "MP Per Game": 28,
     "PTS Per Game": 11.6,
     "TRB Per Game": 1.8,
-    "Per Game": 6.4,
+    "AST Per Game": 6.4,
     "City": "Rocky Mount",
     "Region": "North Carolina"
   },
@@ -1115,7 +1115,7 @@
     "MP Per Game": 11.1,
     "PTS Per Game": 3.7,
     "TRB Per Game": 3,
-    "Per Game": 0.2,
+    "AST Per Game": 0.2,
     "City": "Fayetteville",
     "Region": "North Carolina"
   },
@@ -1143,7 +1143,7 @@
     "MP Per Game": 20.1,
     "PTS Per Game": 7.9,
     "TRB Per Game": 4.7,
-    "Per Game": 0.9,
+    "AST Per Game": 0.9,
     "City": "Wilmington",
     "Region": "North Carolina"
   },
@@ -1171,7 +1171,7 @@
     "MP Per Game": 5.9,
     "PTS Per Game": 1.4,
     "TRB Per Game": 0.4,
-    "Per Game": 0.7,
+    "AST Per Game": 0.7,
     "City": "Cordova",
     "Region": "North Carolina"
   },
@@ -1199,7 +1199,7 @@
     "MP Per Game": 12.9,
     "PTS Per Game": 5.9,
     "TRB Per Game": 3.8,
-    "Per Game": 1.2,
+    "AST Per Game": 1.2,
     "City": "Winston-Salem",
     "Region": "North Carolina"
   },
@@ -1227,7 +1227,7 @@
     "MP Per Game": 9.7,
     "PTS Per Game": 3.7,
     "TRB Per Game": 1.9,
-    "Per Game": 0.5,
+    "AST Per Game": 0.5,
     "City": "High Point",
     "Region": "North Carolina"
   },
@@ -1255,7 +1255,7 @@
     "MP Per Game": 26,
     "PTS Per Game": 10.8,
     "TRB Per Game": 3.8,
-    "Per Game": 3.8,
+    "AST Per Game": 3.8,
     "City": "Winston-Salem",
     "Region": "North Carolina"
   },
@@ -1283,7 +1283,7 @@
     "MP Per Game": 28,
     "PTS Per Game": 12.8,
     "TRB Per Game": 2.5,
-    "Per Game": 5,
+    "AST Per Game": 5,
     "City": "Raleigh",
     "Region": "North Carolina"
   },
@@ -1311,7 +1311,7 @@
     "MP Per Game": 31.4,
     "PTS Per Game": 14.8,
     "TRB Per Game": 10.3,
-    "Per Game": 1.6,
+    "AST Per Game": 1.6,
     "City": "Winston-Salem",
     "Region": "North Carolina"
   },
@@ -1339,7 +1339,7 @@
     "MP Per Game": 18,
     "PTS Per Game": 6,
     "TRB Per Game": 2.4,
-    "Per Game": 0.5,
+    "AST Per Game": 0.5,
     "City": "Greensboro",
     "Region": "North Carolina"
   },
@@ -1367,7 +1367,7 @@
     "MP Per Game": 16,
     "PTS Per Game": 4.1,
     "TRB Per Game": 2.8,
-    "Per Game": 1.3,
+    "AST Per Game": 1.3,
     "City": "Greenville",
     "Region": "North Carolina"
   },
@@ -1395,7 +1395,7 @@
     "MP Per Game": 3.3,
     "PTS Per Game": 0.8,
     "TRB Per Game": 0.8,
-    "Per Game": 0.1,
+    "AST Per Game": 0.1,
     "City": "Charlotte",
     "Region": "North Carolina"
   },
@@ -1423,7 +1423,7 @@
     "MP Per Game": 21.5,
     "PTS Per Game": 12.9,
     "TRB Per Game": 5.3,
-    "Per Game": 1.4,
+    "AST Per Game": 1.4,
     "City": "Tarboro",
     "Region": "North Carolina"
   },
@@ -1451,7 +1451,7 @@
     "MP Per Game": 22.1,
     "PTS Per Game": 5.2,
     "TRB Per Game": 2.7,
-    "Per Game": 3.1,
+    "AST Per Game": 3.1,
     "City": "Wagram",
     "Region": "North Carolina"
   },
@@ -1479,7 +1479,7 @@
     "MP Per Game": 17.3,
     "PTS Per Game": 6.3,
     "TRB Per Game": 5.1,
-    "Per Game": 0.7,
+    "AST Per Game": 0.7,
     "City": "Jonesville",
     "Region": "North Carolina"
   },
@@ -1507,7 +1507,7 @@
     "MP Per Game": 16,
     "PTS Per Game": 5.7,
     "TRB Per Game": 1.6,
-    "Per Game": 1.5,
+    "AST Per Game": 1.5,
     "City": "Henderson",
     "Region": "North Carolina"
   },
@@ -1535,7 +1535,7 @@
     "MP Per Game": 19.7,
     "PTS Per Game": 7.6,
     "TRB Per Game": 5.3,
-    "Per Game": 1.1,
+    "AST Per Game": 1.1,
     "City": "Greensboro",
     "Region": "North Carolina"
   },
@@ -1563,7 +1563,7 @@
     "MP Per Game": 13,
     "PTS Per Game": 4.4,
     "TRB Per Game": 2.3,
-    "Per Game": 0.9,
+    "AST Per Game": 0.9,
     "City": "Oxford",
     "Region": "North Carolina"
   },
@@ -1591,7 +1591,7 @@
     "MP Per Game": 4.1,
     "PTS Per Game": 1.8,
     "TRB Per Game": 0.4,
-    "Per Game": 0.3,
+    "AST Per Game": 0.3,
     "City": "Gastonia",
     "Region": "North Carolina"
   },
@@ -1619,7 +1619,7 @@
     "MP Per Game": 17,
     "PTS Per Game": 6,
     "TRB Per Game": 2.8,
-    "Per Game": 0.9,
+    "AST Per Game": 0.9,
     "City": "Winston-Salem",
     "Region": "North Carolina"
   },
@@ -1647,7 +1647,7 @@
     "MP Per Game": 30.3,
     "PTS Per Game": 14.3,
     "TRB Per Game": 5.7,
-    "Per Game": 1.6,
+    "AST Per Game": 1.6,
     "City": "Winston-Salem",
     "Region": "North Carolina"
   },
@@ -1675,7 +1675,7 @@
     "MP Per Game": 33.5,
     "PTS Per Game": 20.2,
     "TRB Per Game": 4.4,
-    "Per Game": 2.7,
+    "AST Per Game": 2.7,
     "City": "Greensboro",
     "Region": "North Carolina"
   },
@@ -1703,7 +1703,7 @@
     "MP Per Game": 5,
     "PTS Per Game": 0,
     "TRB Per Game": 1,
-    "Per Game": 0.3,
+    "AST Per Game": 0.3,
     "City": "Durham",
     "Region": "North Carolina"
   },
@@ -1731,7 +1731,7 @@
     "MP Per Game": 5.4,
     "PTS Per Game": 1.4,
     "TRB Per Game": 1.6,
-    "Per Game": 0,
+    "AST Per Game": 0,
     "City": "Winston-Salem",
     "Region": "North Carolina"
   },
@@ -1759,7 +1759,7 @@
     "MP Per Game": 32.8,
     "PTS Per Game": 18.5,
     "TRB Per Game": 5.2,
-    "Per Game": 3.8,
+    "AST Per Game": 3.8,
     "City": "Kinston",
     "Region": "North Carolina"
   },
@@ -1787,7 +1787,7 @@
     "MP Per Game": 22.2,
     "PTS Per Game": 9.7,
     "TRB Per Game": 3.1,
-    "Per Game": 2.6,
+    "AST Per Game": 2.6,
     "City": "East Spencer",
     "Region": "North Carolina"
   },
@@ -1815,7 +1815,7 @@
     "MP Per Game": 7.4,
     "PTS Per Game": 1.2,
     "TRB Per Game": 1.4,
-    "Per Game": 0,
+    "AST Per Game": 0,
     "City": "Charlotte",
     "Region": "North Carolina"
   },
@@ -1843,7 +1843,7 @@
     "MP Per Game": 3,
     "PTS Per Game": 0,
     "TRB Per Game": 0.9,
-    "Per Game": 0.3,
+    "AST Per Game": 0.3,
     "City": "Raleigh",
     "Region": "North Carolina"
   },
@@ -1871,7 +1871,7 @@
     "MP Per Game": 27.3,
     "PTS Per Game": 12.1,
     "TRB Per Game": 6.1,
-    "Per Game": 2.7,
+    "AST Per Game": 2.7,
     "City": "Charlotte",
     "Region": "North Carolina"
   },
@@ -1899,7 +1899,7 @@
     "MP Per Game": 27.9,
     "PTS Per Game": 17.7,
     "TRB Per Game": 4.9,
-    "Per Game": 2.5,
+    "AST Per Game": 2.5,
     "City": "Wilmington",
     "Region": "North Carolina"
   },
@@ -1927,7 +1927,7 @@
     "MP Per Game": 8.8,
     "PTS Per Game": 3.9,
     "TRB Per Game": 2.5,
-    "Per Game": 0.4,
+    "AST Per Game": 0.4,
     "City": "Wilmington",
     "Region": "North Carolina"
   },
@@ -1955,7 +1955,7 @@
     "MP Per Game": 20.4,
     "PTS Per Game": 8.2,
     "TRB Per Game": 5.6,
-    "Per Game": 0.9,
+    "AST Per Game": 0.9,
     "City": "Charlotte",
     "Region": "North Carolina"
   },
@@ -1983,7 +1983,7 @@
     "MP Per Game": 17.9,
     "PTS Per Game": 7.2,
     "TRB Per Game": 4.5,
-    "Per Game": 1,
+    "AST Per Game": 1,
     "City": "Charlotte",
     "Region": "North Carolina"
   },
@@ -2011,7 +2011,7 @@
     "MP Per Game": 20,
     "PTS Per Game": 6.7,
     "TRB Per Game": 3,
-    "Per Game": 1.1,
+    "AST Per Game": 1.1,
     "City": "Newton Grove",
     "Region": "North Carolina"
   },
@@ -2039,7 +2039,7 @@
     "MP Per Game": 5,
     "PTS Per Game": 0.2,
     "TRB Per Game": 1.2,
-    "Per Game": 0,
+    "AST Per Game": 0,
     "City": "Fayetteville",
     "Region": "North Carolina"
   },
@@ -2067,7 +2067,7 @@
     "MP Per Game": 14.9,
     "PTS Per Game": 6,
     "TRB Per Game": 1.5,
-    "Per Game": 1.4,
+    "AST Per Game": 1.4,
     "City": "Asheville",
     "Region": "North Carolina"
   },
@@ -2095,7 +2095,7 @@
     "MP Per Game": 16,
     "PTS Per Game": 5,
     "TRB Per Game": 1.3,
-    "Per Game": 1.6,
+    "AST Per Game": 1.6,
     "City": "Winston-Salem",
     "Region": "North Carolina"
   },
@@ -2123,7 +2123,7 @@
     "MP Per Game": 22.3,
     "PTS Per Game": 11.6,
     "TRB Per Game": 3.5,
-    "Per Game": 2.3,
+    "AST Per Game": 2.3,
     "City": "Asheville",
     "Region": "North Carolina"
   },
@@ -2151,7 +2151,7 @@
     "MP Per Game": 27.5,
     "PTS Per Game": 10.7,
     "TRB Per Game": 2.3,
-    "Per Game": 7,
+    "AST Per Game": 7,
     "City": "Durham",
     "Region": "North Carolina"
   },
@@ -2179,7 +2179,7 @@
     "MP Per Game": 19.1,
     "PTS Per Game": 7.1,
     "TRB Per Game": 3.1,
-    "Per Game": 1.2,
+    "AST Per Game": 1.2,
     "City": "Winston-Salem",
     "Region": "North Carolina"
   },
@@ -2207,7 +2207,7 @@
     "MP Per Game": 21.2,
     "PTS Per Game": 5.8,
     "TRB Per Game": 3.5,
-    "Per Game": 2.1,
+    "AST Per Game": 2.1,
     "City": "Winston-Salem",
     "Region": "North Carolina"
   },
@@ -2235,7 +2235,7 @@
     "MP Per Game": 28.5,
     "PTS Per Game": 12.5,
     "TRB Per Game": 6.3,
-    "Per Game": 2.2,
+    "AST Per Game": 2.2,
     "City": "Kinston",
     "Region": "North Carolina"
   },
@@ -2263,7 +2263,7 @@
     "MP Per Game": 14.6,
     "PTS Per Game": 4.3,
     "TRB Per Game": 1.3,
-    "Per Game": 2.8,
+    "AST Per Game": 2.8,
     "City": "Raeford",
     "Region": "North Carolina"
   },
@@ -2291,7 +2291,7 @@
     "MP Per Game": 33.2,
     "PTS Per Game": 22.1,
     "TRB Per Game": 9.4,
-    "Per Game": 2.3,
+    "AST Per Game": 2.3,
     "City": "Greensboro",
     "Region": "North Carolina"
   },
@@ -2319,7 +2319,7 @@
     "MP Per Game": 20.2,
     "PTS Per Game": 10,
     "TRB Per Game": 2,
-    "Per Game": 1.3,
+    "AST Per Game": 1.3,
     "City": "Asheville",
     "Region": "North Carolina"
   },
@@ -2347,7 +2347,7 @@
     "MP Per Game": 27.7,
     "PTS Per Game": 9.4,
     "TRB Per Game": 2,
-    "Per Game": 4.4,
+    "AST Per Game": 4.4,
     "City": "Charlotte",
     "Region": "North Carolina"
   },
@@ -2375,7 +2375,7 @@
     "MP Per Game": 17.2,
     "PTS Per Game": 9.4,
     "TRB Per Game": 3.5,
-    "Per Game": 1.6,
+    "AST Per Game": 1.6,
     "City": "Lowlands",
     "Region": "North Carolina"
   },
@@ -2403,7 +2403,7 @@
     "MP Per Game": 25.7,
     "PTS Per Game": 5.9,
     "TRB Per Game": 4,
-    "Per Game": 6.1,
+    "AST Per Game": 6.1,
     "City": "Raleigh",
     "Region": "North Carolina"
   },
@@ -2431,7 +2431,7 @@
     "MP Per Game": 32.1,
     "PTS Per Game": 13.8,
     "TRB Per Game": 5.3,
-    "Per Game": 2.5,
+    "AST Per Game": 2.5,
     "City": "Raeford",
     "Region": "North Carolina"
   },
@@ -2459,7 +2459,7 @@
     "MP Per Game": 17.2,
     "PTS Per Game": 8.5,
     "TRB Per Game": 4.8,
-    "Per Game": 0.8,
+    "AST Per Game": 0.8,
     "City": "Hoke",
     "Region": "North Carolina"
   },
@@ -2487,7 +2487,7 @@
     "MP Per Game": 21.8,
     "PTS Per Game": 9.4,
     "TRB Per Game": 2.2,
-    "Per Game": 0.9,
+    "AST Per Game": 0.9,
     "City": "Charlotte",
     "Region": "North Carolina"
   },
@@ -2515,7 +2515,7 @@
     "MP Per Game": 13.9,
     "PTS Per Game": 5.4,
     "TRB Per Game": 2.4,
-    "Per Game": 0.6,
+    "AST Per Game": 0.6,
     "City": "Durham",
     "Region": "North Carolina"
   },
@@ -2543,7 +2543,7 @@
     "MP Per Game": 10.6,
     "PTS Per Game": 4,
     "TRB Per Game": 2.5,
-    "Per Game": 0.6,
+    "AST Per Game": 0.6,
     "City": "Whiteville",
     "Region": "North Carolina"
   },
@@ -2571,7 +2571,7 @@
     "MP Per Game": 11.6,
     "PTS Per Game": 2.7,
     "TRB Per Game": 1.8,
-    "Per Game": 1,
+    "AST Per Game": 1,
     "City": "Durham",
     "Region": "North Carolina"
   },
@@ -2599,7 +2599,7 @@
     "MP Per Game": 34.5,
     "PTS Per Game": 18.1,
     "TRB Per Game": 4.5,
-    "Per Game": 9.5,
+    "AST Per Game": 9.5,
     "City": "Winston-Salem",
     "Region": "North Carolina"
   },
@@ -2627,7 +2627,7 @@
     "MP Per Game": 14.9,
     "PTS Per Game": 4.4,
     "TRB Per Game": 3.5,
-    "Per Game": 0.5,
+    "AST Per Game": 0.5,
     "City": "Wilmington",
     "Region": "North Carolina"
   },
@@ -2655,7 +2655,7 @@
     "MP Per Game": 8.7,
     "PTS Per Game": 2.9,
     "TRB Per Game": 1.3,
-    "Per Game": 1.1,
+    "AST Per Game": 1.1,
     "City": "Greensboro",
     "Region": "North Carolina"
   },
@@ -2683,7 +2683,7 @@
     "MP Per Game": 14.1,
     "PTS Per Game": 4.5,
     "TRB Per Game": 3.1,
-    "Per Game": 0.9,
+    "AST Per Game": 0.9,
     "City": "Rocky Mount",
     "Region": "North Carolina"
   },
@@ -2711,7 +2711,7 @@
     "MP Per Game": 20.9,
     "PTS Per Game": 10.5,
     "TRB Per Game": 7.3,
-    "Per Game": 0.9,
+    "AST Per Game": 0.9,
     "City": "Winston-Salem",
     "Region": "North Carolina"
   },
@@ -2739,7 +2739,7 @@
     "MP Per Game": 18.1,
     "PTS Per Game": 6,
     "TRB Per Game": 1.7,
-    "Per Game": 1.1,
+    "AST Per Game": 1.1,
     "City": "Plymouth",
     "Region": "North Carolina"
   },
@@ -2767,7 +2767,7 @@
     "MP Per Game": 8.2,
     "PTS Per Game": 2.3,
     "TRB Per Game": 2.5,
-    "Per Game": 0.2,
+    "AST Per Game": 0.2,
     "City": "Raleigh",
     "Region": "North Carolina"
   },
@@ -2795,7 +2795,7 @@
     "MP Per Game": 14.2,
     "PTS Per Game": 4.5,
     "TRB Per Game": 1.8,
-    "Per Game": 1.2,
+    "AST Per Game": 1.2,
     "City": "Raleigh",
     "Region": "North Carolina"
   },
@@ -2823,7 +2823,7 @@
     "MP Per Game": 19.7,
     "PTS Per Game": 7.9,
     "TRB Per Game": 3.6,
-    "Per Game": 1.4,
+    "AST Per Game": 1.4,
     "City": "Greensboro",
     "Region": "North Carolina"
   },
@@ -2851,7 +2851,7 @@
     "MP Per Game": 25.3,
     "PTS Per Game": 10.9,
     "TRB Per Game": 4.5,
-    "Per Game": 2,
+    "AST Per Game": 2,
     "City": "Durham",
     "Region": "North Carolina"
   },
@@ -2879,7 +2879,7 @@
     "MP Per Game": 5.5,
     "PTS Per Game": 2,
     "TRB Per Game": 0,
-    "Per Game": 0,
+    "AST Per Game": 0,
     "City": "Whiteville",
     "Region": "North Carolina"
   },
@@ -2907,7 +2907,7 @@
     "MP Per Game": 9.9,
     "PTS Per Game": 3.4,
     "TRB Per Game": 0.8,
-    "Per Game": 2.2,
+    "AST Per Game": 2.2,
     "City": "Halifax",
     "Region": "North Carolina"
   },
@@ -2935,7 +2935,7 @@
     "MP Per Game": 10.2,
     "PTS Per Game": 3.2,
     "TRB Per Game": 1.8,
-    "Per Game": 0.5,
+    "AST Per Game": 0.5,
     "City": "Greensboro",
     "Region": "North Carolina"
   },
@@ -2963,7 +2963,7 @@
     "MP Per Game": 15.2,
     "PTS Per Game": 5.4,
     "TRB Per Game": 4.8,
-    "Per Game": 0.6,
+    "AST Per Game": 0.6,
     "City": "Kinston",
     "Region": "North Carolina"
   },
@@ -2991,7 +2991,7 @@
     "MP Per Game": 12.2,
     "PTS Per Game": 6.2,
     "TRB Per Game": 5,
-    "Per Game": 0.5,
+    "AST Per Game": 0.5,
     "City": "Greenville",
     "Region": "North Carolina"
   },
@@ -3019,7 +3019,7 @@
     "MP Per Game": 9.4,
     "PTS Per Game": 2.2,
     "TRB Per Game": 1.9,
-    "Per Game": 0.2,
+    "AST Per Game": 0.2,
     "City": "Shallotte",
     "Region": "North Carolina"
   },
@@ -3047,7 +3047,7 @@
     "MP Per Game": 12.6,
     "PTS Per Game": 12.7,
     "TRB Per Game": 2.8,
-    "Per Game": 2.3,
+    "AST Per Game": 2.3,
     "City": "Golden Valley",
     "Region": "North Carolina"
   },
@@ -3075,7 +3075,7 @@
     "MP Per Game": 23.9,
     "PTS Per Game": 10.7,
     "TRB Per Game": 2.9,
-    "Per Game": 4.2,
+    "AST Per Game": 4.2,
     "City": "Fayetteville",
     "Region": "North Carolina"
   },
@@ -3103,7 +3103,7 @@
     "MP Per Game": 20,
     "PTS Per Game": 7.6,
     "TRB Per Game": 2.5,
-    "Per Game": 3.9,
+    "AST Per Game": 3.9,
     "City": "Charlotte",
     "Region": "North Carolina"
   },
@@ -3131,7 +3131,7 @@
     "MP Per Game": 3,
     "PTS Per Game": 1,
     "TRB Per Game": 1,
-    "Per Game": 0,
+    "AST Per Game": 0,
     "City": "Charlotte",
     "Region": "North Carolina"
   },
@@ -3159,7 +3159,7 @@
     "MP Per Game": 31.2,
     "PTS Per Game": 16.9,
     "TRB Per Game": 3.2,
-    "Per Game": 3.3,
+    "AST Per Game": 3.3,
     "City": "Kinston",
     "Region": "North Carolina"
   },
@@ -3187,7 +3187,7 @@
     "MP Per Game": 12,
     "PTS Per Game": 5.4,
     "TRB Per Game": 1.4,
-    "Per Game": 1.2,
+    "AST Per Game": 1.2,
     "City": "Chapel Hill",
     "Region": "North Carolina"
   },
@@ -3215,7 +3215,7 @@
     "MP Per Game": 11.5,
     "PTS Per Game": 3,
     "TRB Per Game": 2.4,
-    "Per Game": 1.3,
+    "AST Per Game": 1.3,
     "City": "Lexington",
     "Region": "North Carolina"
   },
@@ -3243,7 +3243,7 @@
     "MP Per Game": 32.8,
     "PTS Per Game": 22.7,
     "TRB Per Game": 4.1,
-    "Per Game": 3.3,
+    "AST Per Game": 3.3,
     "City": "Shelby",
     "Region": "North Carolina"
   },
@@ -3271,7 +3271,7 @@
     "MP Per Game": 4.1,
     "PTS Per Game": 0.9,
     "TRB Per Game": 0.9,
-    "Per Game": 0.2,
+    "AST Per Game": 0.2,
     "City": "Winston-Salem",
     "Region": "North Carolina"
   },
@@ -3299,7 +3299,7 @@
     "MP Per Game": 29,
     "PTS Per Game": 7.1,
     "TRB Per Game": 5.6,
-    "Per Game": 1.5,
+    "AST Per Game": 1.5,
     "City": "Raleigh",
     "Region": "North Carolina"
   },
@@ -3327,7 +3327,7 @@
     "MP Per Game": 7.7,
     "PTS Per Game": 3,
     "TRB Per Game": 1,
-    "Per Game": 0.5,
+    "AST Per Game": 0.5,
     "City": "Charlotte",
     "Region": "North Carolina"
   },
@@ -3355,7 +3355,7 @@
     "MP Per Game": 20.7,
     "PTS Per Game": 8.2,
     "TRB Per Game": 2,
-    "Per Game": 2,
+    "AST Per Game": 2,
     "City": "Tarboro",
     "Region": "North Carolina"
   },
@@ -3383,7 +3383,7 @@
     "MP Per Game": 5.2,
     "PTS Per Game": 1.3,
     "TRB Per Game": 0.1,
-    "Per Game": 0.1,
+    "AST Per Game": 0.1,
     "City": "Murfreesboro",
     "Region": "North Carolina"
   },
@@ -3411,7 +3411,7 @@
     "MP Per Game": 35.6,
     "PTS Per Game": 19.1,
     "TRB Per Game": 4.3,
-    "Per Game": 9.1,
+    "AST Per Game": 9.1,
     "City": "Raleigh",
     "Region": "North Carolina"
   },
@@ -3439,7 +3439,7 @@
     "MP Per Game": 17,
     "PTS Per Game": 7.9,
     "TRB Per Game": 3,
-    "Per Game": 2.1,
+    "AST Per Game": 2.1,
     "City": "Hickory",
     "Region": "North Carolina"
   },
@@ -3467,7 +3467,7 @@
     "MP Per Game": 28.8,
     "PTS Per Game": 15.5,
     "TRB Per Game": 4.1,
-    "Per Game": 1.2,
+    "AST Per Game": 1.2,
     "City": "Durham",
     "Region": "North Carolina"
   },
@@ -3495,7 +3495,7 @@
     "MP Per Game": 9,
     "PTS Per Game": 3.1,
     "TRB Per Game": 2.4,
-    "Per Game": 0.3,
+    "AST Per Game": 0.3,
     "City": "Hickory",
     "Region": "North Carolina"
   },
@@ -3523,7 +3523,7 @@
     "MP Per Game": 12.2,
     "PTS Per Game": 3.2,
     "TRB Per Game": 1.5,
-    "Per Game": 1.1,
+    "AST Per Game": 1.1,
     "City": "Elm City",
     "Region": "North Carolina"
   },
@@ -3551,7 +3551,7 @@
     "MP Per Game": 28.2,
     "PTS Per Game": 13.7,
     "TRB Per Game": 3.6,
-    "Per Game": 3.5,
+    "AST Per Game": 3.5,
     "City": "Goldsboro",
     "Region": "North Carolina"
   },
@@ -3579,7 +3579,7 @@
     "MP Per Game": 11.9,
     "PTS Per Game": 5.3,
     "TRB Per Game": 0.6,
-    "Per Game": 1.2,
+    "AST Per Game": 1.2,
     "City": "Charlotte",
     "Region": "North Carolina"
   },
@@ -3607,7 +3607,7 @@
     "MP Per Game": 24.7,
     "PTS Per Game": 12.6,
     "TRB Per Game": 10.8,
-    "Per Game": 0.6,
+    "AST Per Game": 0.6,
     "City": "Gastonia",
     "Region": "North Carolina"
   },
@@ -3635,7 +3635,7 @@
     "MP Per Game": 24.2,
     "PTS Per Game": 8.3,
     "TRB Per Game": 3.6,
-    "Per Game": 1.4,
+    "AST Per Game": 1.4,
     "City": "Greensboro",
     "Region": "North Carolina"
   },
@@ -3663,7 +3663,7 @@
     "MP Per Game": 20.8,
     "PTS Per Game": 10,
     "TRB Per Game": 3.2,
-    "Per Game": 1.6,
+    "AST Per Game": 1.6,
     "City": "Lenoir County",
     "Region": "North Carolina"
   },
@@ -3691,7 +3691,7 @@
     "MP Per Game": 19.9,
     "PTS Per Game": 8.2,
     "TRB Per Game": 4.9,
-    "Per Game": 0.7,
+    "AST Per Game": 0.7,
     "City": "Raleigh",
     "Region": "North Carolina"
   },
@@ -3719,7 +3719,7 @@
     "MP Per Game": 18.9,
     "PTS Per Game": 6.2,
     "TRB Per Game": 2.3,
-    "Per Game": 1.4,
+    "AST Per Game": 1.4,
     "City": "Washington",
     "Region": "North Carolina"
   },
@@ -3747,7 +3747,7 @@
     "MP Per Game": 32.5,
     "PTS Per Game": 12.8,
     "TRB Per Game": 10,
-    "Per Game": 1.3,
+    "AST Per Game": 1.3,
     "City": "Rocky Mount",
     "Region": "North Carolina"
   },
@@ -3775,7 +3775,7 @@
     "MP Per Game": 15.8,
     "PTS Per Game": 4.7,
     "TRB Per Game": 1.2,
-    "Per Game": 1,
+    "AST Per Game": 1,
     "City": "Fayetteville",
     "Region": "North Carolina"
   },
@@ -3803,7 +3803,7 @@
     "MP Per Game": 11.2,
     "PTS Per Game": 4.8,
     "TRB Per Game": 2.7,
-    "Per Game": 0.6,
+    "AST Per Game": 0.6,
     "City": "Elizabeth City",
     "Region": "North Carolina"
   },
@@ -3831,7 +3831,7 @@
     "MP Per Game": 27.3,
     "PTS Per Game": 9.2,
     "TRB Per Game": 4.5,
-    "Per Game": 1.3,
+    "AST Per Game": 1.3,
     "City": "Charlotte",
     "Region": "North Carolina"
   },
@@ -3859,7 +3859,7 @@
     "MP Per Game": 31.7,
     "PTS Per Game": 25.7,
     "TRB Per Game": 7,
-    "Per Game": 3.2,
+    "AST Per Game": 3.2,
     "City": "Salisbury",
     "Region": "North Carolina"
   },
@@ -3887,7 +3887,7 @@
     "MP Per Game": 7.8,
     "PTS Per Game": 3.9,
     "TRB Per Game": 1.8,
-    "Per Game": 0.4,
+    "AST Per Game": 0.4,
     "City": "Fayetteville",
     "Region": "North Carolina"
   },
@@ -3915,7 +3915,7 @@
     "MP Per Game": 8.9,
     "PTS Per Game": 1.1,
     "TRB Per Game": 1,
-    "Per Game": 0.8,
+    "AST Per Game": 0.8,
     "City": "Gastonia",
     "Region": "North Carolina"
   },
@@ -3943,7 +3943,7 @@
     "MP Per Game": 13.3,
     "PTS Per Game": 4.8,
     "TRB Per Game": 3.5,
-    "Per Game": 0.6,
+    "AST Per Game": 0.6,
     "City": "Tryon",
     "Region": "North Carolina"
   },
@@ -3971,7 +3971,7 @@
     "MP Per Game": 8.7,
     "PTS Per Game": 3.5,
     "TRB Per Game": 2,
-    "Per Game": 0.3,
+    "AST Per Game": 0.3,
     "City": "Rockingham",
     "Region": "North Carolina"
   },
@@ -3999,7 +3999,7 @@
     "MP Per Game": 20.1,
     "PTS Per Game": 5.5,
     "TRB Per Game": 2.3,
-    "Per Game": 3.9,
+    "AST Per Game": 3.9,
     "City": "Charlotte",
     "Region": "North Carolina"
   },
@@ -4027,7 +4027,7 @@
     "MP Per Game": 32.4,
     "PTS Per Game": 17.6,
     "TRB Per Game": 5.1,
-    "Per Game": 3,
+    "AST Per Game": 3,
     "City": "Gastonia",
     "Region": "North Carolina"
   },
@@ -4055,7 +4055,7 @@
     "MP Per Game": 3.5,
     "PTS Per Game": 1.3,
     "TRB Per Game": 0.8,
-    "Per Game": 0.5,
+    "AST Per Game": 0.5,
     "City": "Raleigh",
     "Region": "North Carolina"
   },
@@ -4083,7 +4083,7 @@
     "MP Per Game": 16.6,
     "PTS Per Game": 4.6,
     "TRB Per Game": 1.2,
-    "Per Game": 2.9,
+    "AST Per Game": 2.9,
     "City": "Raleigh",
     "Region": "North Carolina"
   }
